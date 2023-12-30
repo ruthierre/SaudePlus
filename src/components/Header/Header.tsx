@@ -2,7 +2,7 @@ import './styles.css'
 
 function Header(){
     return(
-        <div className="container">
+        <div>
             Header
         </div>
     )
