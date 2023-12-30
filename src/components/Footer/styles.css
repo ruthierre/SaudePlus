@@ -1,0 +1,132 @@
+@import '../../styles/globals.css';
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: underline;
+    color: var(--cor-branca) !important;
+}
+
+svg{
+    color: var(--cor-branca) !important;
+}
+
+h2{
+    text-transform: uppercase;
+    color: var(--cor-branca);
+    margin-bottom: 1rem;
+}
+
+a:visited{
+    color: var(--cor-texto);
+}
+
+footer{
+    background-color: var(--cor-primaria);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+.footer-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: .5rem;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.footer-content {
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem; 
+}
+
+.footer-content p{
+    color: var(--cor-branca);
+    line-height: 1.5;
+}
+
+.contatos{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.contatos label{
+    display: flex;
+    gap: .8rem;
+    color: var(--cor-branca);
+}
+
+.links-uteis{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem; 
+}
+
+.links-uteis ul{
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+}
+
+.servicos{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem; 
+}
+
+.servicos ul{
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+}
+
+.footerCopyright{
+    background-color: var(--cor-secundaria);
+    padding: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    & .copy-container{
+        width: 100%;
+        max-width: 1200px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: #333;
+        gap: .5rem;
+        font-weight: bold;
+
+    }
+}
+
+.footerCopyright .redes{
+    display: flex;
+    gap: .5rem;
+    & svg{
+        font-size: 2rem;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 700px){
+    .footer-container{
+        text-align: center;
+        gap: 2rem;
+    }
+
+    h2{
+        margin-bottom: .5rem;
+    }
+    .copy-container{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+}

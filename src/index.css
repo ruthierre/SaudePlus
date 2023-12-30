@@ -10,7 +10,3 @@ body{
     font-family: 'Arial', sans-serif;
     background-color: var(--cor-fundo);
 }
-
-p{
-    color: var(--cor-fundo);
-}
