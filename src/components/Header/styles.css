@@ -1,3 +1,3 @@
-.container{
-    background-color: dodgerblue;
-}
+@import '../../styles/globals.css';
+@import '../../styles/button.css';
+@import '../../styles/forms.css';
