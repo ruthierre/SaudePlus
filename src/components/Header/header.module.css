@@ -48,6 +48,7 @@ header{
     color: var(--cor-branca);
     text-decoration: none;
     font-size: 1.2rem;
+    font-weight: bold;
     transition: .3s ease;
     display: flex;
     align-items: center;
@@ -80,6 +81,7 @@ header{
     color: #333 !important;
     padding: .5rem;
     width: 100%;
+    font-weight: lighter;
 }
 
 .desativado{
