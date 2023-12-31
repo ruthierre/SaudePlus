@@ -1,25 +1,25 @@
 @import '../../styles/globals.css';
 
-ul{
+footer ul{
     list-style-type: none;
 }
 
-a{
+footer a{
     text-decoration: underline;
     color: var(--cor-branca) !important;
 }
 
-svg{
+.footerCopyright svg{
     color: var(--cor-branca) !important;
 }
 
-h2{
+footer h2{
     text-transform: uppercase;
     color: var(--cor-branca);
     margin-bottom: 1rem;
 }
 
-a:visited{
+footer a:visited{
     color: var(--cor-texto);
 }
 
@@ -31,7 +31,7 @@ footer{
     padding: 1.5rem;
 }
 
-.footer-container{
+.footer_container{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -40,14 +40,14 @@ footer{
     max-width: 1200px;
 }
 
-.footer-content {
+.footer_content {
     max-width: 350px;
     display: flex;
     flex-direction: column;
     gap: .5rem; 
 }
 
-.footer-content p{
+.footer_content p{
     color: var(--cor-branca);
     line-height: 1.5;
 }
@@ -64,13 +64,18 @@ footer{
     color: var(--cor-branca);
 }
 
-.links-uteis{
+.contatos a{
+    display: flex;
+    gap: .8rem;
+}
+
+.links_uteis{
     display: flex;
     flex-direction: column;
     gap: .5rem; 
 }
 
-.links-uteis ul{
+.links_uteis ul{
     display: flex;
     flex-direction: column;
     gap: .8rem;
@@ -94,7 +99,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    & .copy-container{
+    & .copy_container{
         width: 100%;
         max-width: 1200px;
         display: flex;
@@ -117,15 +122,15 @@ footer{
 }
 
 @media (max-width: 700px){
-    .footer-container{
+    .footer_container{
         text-align: center;
         gap: 2rem;
     }
 
-    h2{
+    footer h2{
         margin-bottom: .5rem;
     }
-    .copy-container{
+    .copy_container{
         flex-direction: column-reverse;
         text-align: center;
     }

@@ -1,7 +1,7 @@
 function SolicitarAgEndemias(){
     return(
         <div>
-
+            Agente de Endemias
         </div>
     )
 }
