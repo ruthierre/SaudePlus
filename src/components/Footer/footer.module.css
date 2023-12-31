@@ -16,7 +16,7 @@ footer a{
 footer h2{
     text-transform: uppercase;
     color: var(--cor-branca);
-    margin-bottom: 1rem;
+    margin-bottom: .5rem;
 }
 
 footer a:visited{
@@ -60,13 +60,13 @@ footer{
 
 .contatos label{
     display: flex;
-    gap: .8rem;
+    gap: .5rem;
     color: var(--cor-branca);
 }
 
 .contatos a{
     display: flex;
-    gap: .8rem;
+    gap: .5rem;
 }
 
 .links_uteis{
