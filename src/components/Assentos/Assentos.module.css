@@ -1,0 +1,111 @@
+@import '../../styles/globals.css';
+
+.container {
+    position: absolute;
+    top: 1rem;
+    right: 5.5rem;
+    display: grid;
+    gap: .5rem 1.5rem;
+    grid-template-areas:
+        "seat seat seat seat seat"
+        "seat seat seat seat seat"
+        "seat seat seat seat seat"
+        "seat seat seat seat seat"
+}
+
+.containerBus {
+    position: absolute;
+    top: 1.2rem;
+    right: 5.0rem;
+    display: grid;
+    gap: 1rem 1rem;
+    grid-template-areas:
+        "seat seat seat seat seat seat seat seat seat seat seat"
+        "seat seat seat seat seat seat seat seat seat seat seat"
+        "seat seat seat seat seat seat seat seat seat seat seat"
+        "seat seat seat seat seat seat seat seat seat seat seat"
+}
+
+.seat {
+    padding: .4rem;
+    opacity: 0;
+    background-color: var(--cor-secundaria);
+    border: none;
+    animation: animate2 .5s ease-out forwards;
+    color: var(--cor-branca);
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: .2rem;
+}
+
+.seat:hover {
+    background-color: var(--cor-primaria);
+}
+
+.container_assentos img {
+    width: 600px;
+    animation: animate .5s ease-out forwards;
+    transform: translate(-70%);
+    opacity: 0;
+    border-radius: 1rem;
+}
+
+.container_assentosMicro img {
+    width: 400px;
+    animation: animate .5s ease-out forwards;
+    transform: translate(-70%);
+    opacity: 0;
+    border-radius: 1rem;
+}
+
+.container_assentos {
+    overflow: hidden;
+    position: relative;
+}
+
+.container_assentosMicro {
+    overflow: hidden;
+    position: relative;
+}
+
+@keyframes animate {
+    100% {
+        transform: translate(0%);
+        opacity: 1;
+    }
+}
+
+@keyframes animate2 {
+    65% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 650px) {
+    .container_assentos {
+        width: 100%;
+        overflow-x: scroll;
+    }
+
+    .container_assentosMicro {
+        width: 100%;
+        overflow-x: scroll;
+    }
+
+    .container {
+        justify-content: start;
+        top: 1rem;
+        left: 5rem;
+    }
+
+    .containerBus {
+        justify-content: start;
+        left: 3.5rem;
+    }
+}
+
+
