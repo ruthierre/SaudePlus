@@ -1,5 +1,5 @@
 import styles from './CardTransporte.module.css'
-import fotoOnibus from '../../../images/bigbus.png'
+import fotoOnibus from '/images/bigbus.png'
 import { faClock, faFileInvoice } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 

@@ -1,4 +1,4 @@
-import logo from '../../images/logoSaudePlusSemFundoAlter.svg'
+import logo from '/images/logoSaudePlusSemFundoAlter.svg'
 import { Link } from 'react-router-dom';
 import styles from './header.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

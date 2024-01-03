@@ -1,5 +1,5 @@
 
-import logo from '../../images/logoSaudePlusSemFundo.svg'
+import logo from '/images/logoSaudePlusSemFundo.svg'
 import { Link } from 'react-router-dom';
 import style from './login.module.css'
 

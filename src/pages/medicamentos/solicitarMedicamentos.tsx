@@ -1,7 +1,9 @@
+import CardMedicamentos from "../../components/Card/CardMedicamentos/CardMedicamentos";
+
 function SolicitarMedicamentos(){
     return(
         <div>
-            Solicitar medicamentos
+            <CardMedicamentos />
         </div>
     )
 }

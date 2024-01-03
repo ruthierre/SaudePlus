@@ -8,7 +8,7 @@ import SolicitarAgSaude from './pages/solicitarAgSaude';
 import SolicitarAgEndemias from './pages/solicitarAgEndemias';
 import SolicitarConsultas from './pages/solicitarConsultas';
 import SolicitarExames from './pages/solicitarExames';
-import SolicitarMedicamentos from './pages/solicitarMedicamentos';
+import SolicitarMedicamentos from './pages/medicamentos/solicitarMedicamentos';
 import MelhorEmCasa from './pages/melhorEmCasa';
 import Ouvidoria from './pages/ouvidoria/ouvidoria';
 import SolicitarTransporte from './pages/transporte/solicitarTransporte';

@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import logo from '../../images/logoSaudePlusSemFundo.svg'
+import logo from '/images/logoSaudePlusSemFundo.svg'
 import styles from './pageNotFound.module.css'
 
 function PageNotFound() {
