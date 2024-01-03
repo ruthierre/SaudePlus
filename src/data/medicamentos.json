@@ -1,0 +1,279 @@
+{
+    "remedios": [
+        {
+            "id": 1,
+            "img": "img.webp",
+            "nome": "Aciclovir",
+            "disponibilidade": true,
+            "descricao": "Antiviral utilizado no tratamento de infecções causadas pelo vírus herpes simples.",
+            "contraindicacoes": "Não deve ser usado em caso de hipersensibilidade ao aciclovir ou a qualquer componente da fórmula.",
+            "efeitos_colaterais": "Pode causar náuseas, vômitos, diarreia, dor de cabeça e tontura.",
+            "mecanismo_acao": "Inibe a replicação do DNA viral, impedindo a propagação do vírus.",
+            "indicacoes": "Tratamento de infecções por herpes simples, incluindo herpes genital, herpes labial e herpes zoster."
+        },
+        {
+            "id": 2,
+            "img": "img1.webp",
+            "nome": "Acebrofilina",
+            "disponibilidade": true,
+            "descricao": "Broncodilatador utilizado no tratamento de doenças respiratórias como a bronquite e a asma.",
+            "contraindicacoes": "Não deve ser usado em pacientes com hipersensibilidade à acebrofilina ou a outros componentes da fórmula.",
+            "efeitos_colaterais": "Pode causar irritação gastrointestinal, náuseas, vômitos e tremores.",
+            "mecanismo_acao": "Aumenta a produção de enzimas que facilitam a remoção do muco, melhorando a respiração.",
+            "indicacoes": "Tratamento de doenças respiratórias, como bronquite crônica, asma brônquica e enfisema pulmonar."
+        },
+        {
+            "id": 3,
+            "img": "img2.jpg",
+            "nome": "Contracep",
+            "disponibilidade": true,
+            "descricao": "Contraceptivo oral utilizado para prevenir a gravidez.",
+            "contraindicacoes": "Não deve ser utilizado por mulheres grávidas, lactantes ou com histórico de trombose.",
+            "efeitos_colaterais": "Pode causar alterações no humor, dores de cabeça, náuseas e sensibilidade mamária.",
+            "mecanismo_acao": "Inibe a ovulação e altera o muco cervical para impedir a entrada dos espermatozoides no útero.",
+            "indicacoes": "Prevenção da gravidez."
+        },
+        {
+            "id": 4,
+            "img": "img3.webp",
+            "nome": "Ácido Acetilsacílico",
+            "disponibilidade": true,
+            "descricao": "Anti-inflamatório e analgésico utilizado para alívio de dores e redução de inflamações.",
+            "contraindicacoes": "Não deve ser usado por pessoas com úlcera péptica, alergia ao ácido acetilsalicílico ou distúrbios hemorrágicos.",
+            "efeitos_colaterais": "Pode causar irritação gástrica, úlceras, hemorragias e reações alérgicas.",
+            "mecanismo_acao": "Inibe a síntese de prostaglandinas, reduzindo a inflamação e a dor.",
+            "indicacoes": "Alívio de dores leves a moderadas, redução de febre e inflamações."
+        },
+        {
+            "id": 5,
+            "img": "img4.jpg",
+            "nome": "Benzoderm",
+            "disponibilidade": true,
+            "descricao": "Antisséptico utilizado no tratamento de infecções na pele.",
+            "contraindicacoes": "Não deve ser aplicado em feridas abertas, queimaduras graves ou em áreas extensas do corpo.",
+            "efeitos_colaterais": "Pode causar irritação localizada, vermelhidão e coceira.",
+            "mecanismo_acao": "Age como antisséptico, inibindo o crescimento de microorganismos na pele.",
+            "indicacoes": "Tratamento de infecções cutâneas superficiais."
+        },
+        {
+            "id": 6,
+            "img": "img5.jpg",
+            "nome": "Bromazepam",
+            "disponibilidade": true,
+            "descricao": "Ansiolítico utilizado para tratar transtornos de ansiedade.",
+            "contraindicacoes": "Não deve ser utilizado por pessoas com hipersensibilidade ao bromazepam ou a outros benzodiazepínicos.",
+            "efeitos_colaterais": "Pode causar sonolência, tontura, fraqueza e dificuldade de concentração.",
+            "mecanismo_acao": "Potencializa a ação do neurotransmissor GABA, reduzindo a excitabilidade neuronal.",
+            "indicacoes": "Tratamento de transtornos de ansiedade e distúrbios do sono."
+        },
+        {
+            "id": 7,
+            "img": "img6.webp",
+            "nome": "promoprida",
+            "disponibilidade": true,
+            "descricao": "Medicamento antiemético e gastroprocinético utilizado no tratamento de náuseas e vômitos.",
+            "contraindicacoes": "Não deve ser usado em casos de hemorragia, obstrução mecânica ou perfuração gastrointestinal.",
+            "efeitos_colaterais": "Pode causar sonolência, tontura, diarreia e distúrbios extrapiramidais.",
+            "mecanismo_acao": "Bloqueia os receptores de dopamina, aliviando náuseas e estimulando a motilidade gastrointestinal.",
+            "indicacoes": "Tratamento de náuseas, vômitos e distúrbios gastrointestinais."
+        },
+        {
+            "id": 8,
+            "img": "img7.jpg",
+            "nome": "carbamazenina",
+            "disponibilidade": true,
+            "descricao": "Estabilizador de humor utilizado no tratamento de transtorno bipolar.",
+            "contraindicacoes": "Não deve ser usado por pessoas com hipersensibilidade à carbamazepina ou a outros medicamentos tricíclicos.",
+            "efeitos_colaterais": "Pode causar sonolência, tontura, náuseas e alterações no humor.",
+            "mecanismo_acao": "Estabiliza a atividade neuronal, reduzindo a excitação excessiva no cérebro.",
+            "indicacoes": "Tratamento de transtorno bipolar e epilepsia."
+        },
+        {
+            "id": 9,
+            "img": "img8.webp",
+            "nome": "Dipirona",
+            "disponibilidade": true,
+            "descricao": "Analgésico e antipirético utilizado para alívio de dores e redução de febre.",
+            "contraindicacoes": "Não deve ser utilizado por pessoas com histórico de reações alérgicas à dipirona ou a outros analgésicos.",
+            "efeitos_colaterais": "Pode causar queda da pressão arterial, reações alérgicas e agranulocitose.",
+            "mecanismo_acao": "Inibe a síntese de prostaglandinas, reduzindo a dor e a febre.",
+            "indicacoes": "Alívio de dores leves a moderadas e redução de febre."
+        },
+        {
+            "id": 10,
+            "img": "img9.jfif",
+            "nome": "carvedilol",
+            "disponibilidade": true,
+            "descricao": "Betabloqueador utilizado no tratamento de insuficiência cardíaca e hipertensão.",
+            "contraindicacoes": "Não deve ser usado em casos de insuficiência cardíaca descompensada, choque cardiogênico ou bradicardia grave.",
+            "efeitos_colaterais": "Pode causar tontura, fadiga, insuficiência cardíaca e distúrbios gastrointestinais.",
+            "mecanismo_acao": "Bloqueia os receptores beta-adrenérgicos, reduzindo a carga sobre o coração.",
+            "indicacoes": "Tratamento de insuficiência cardíaca e hipertensão arterial."
+        },
+        {
+            "id": 11,
+            "img": "img10.webp",
+            "nome": "cefalexina",
+            "disponibilidade": true,
+            "descricao": "Antibiótico cefalosporínico utilizado no tratamento de infecções bacterianas.",
+            "contraindicacoes": "Não deve ser usado por pessoas com hipersensibilidade à cefalexina ou a outros antibióticos beta-lactâmicos.",
+            "efeitos_colaterais": "Pode causar diarreia, náuseas, vômitos e reações alérgicas.",
+            "mecanismo_acao": "Inibe a síntese da parede celular bacteriana, levando à destruição das bactérias.",
+            "indicacoes": "Tratamento de infecções bacterianas, como infecções respiratórias e infecções de pele."
+        },
+        {
+            "id": 12,
+            "img": "img11.png",
+            "nome": "cetoconazol",
+            "disponibilidade": true,
+            "descricao": "Antifúngico utilizado no tratamento de infecções fúngicas na pele.",
+            "contraindicacoes": "Não deve ser usado por pessoas com hipersensibilidade ao cetoconazol ou a outros antifúngicos azólicos.",
+            "efeitos_colaterais": "Pode causar irritação localizada, coceira, vermelhidão e descamação.",
+            "mecanismo_acao": "Inibe a síntese de ergosterol, componente essencial da membrana celular dos fungos.",
+            "indicacoes": "Tratamento de infecções fúngicas na pele, unhas e mucosas."
+        },
+        {
+            "id": 13,
+            "img": "img13.jpg",
+            "nome": "bromidrado de citalopram",
+            "disponibilidade": true,
+            "descricao": "Antidepressivo utilizado no tratamento de transtornos depressivos.",
+            "contraindicacoes": "Não deve ser usado por pessoas com hipersensibilidade ao citalopram ou a outros inibidores seletivos de recaptação de serotonina.",
+            "efeitos_colaterais": "Pode causar insônia, sonolência, náuseas e alterações no apetite.",
+            "mecanismo_acao": "Aumenta os níveis de serotonina no cérebro, melhorando o humor.",
+            "indicacoes": "Tratamento de transtornos depressivos e transtorno do pânico."
+        },
+        {
+            "id": 14,
+            "img": "img14.webp",
+            "nome": "Acetato de dexametasona",
+            "disponibilidade": true,
+            "descricao": "Corticosteroide utilizado no tratamento de inflamações e alergias.",
+            "contraindicacoes": "Não deve ser usado em casos de infecções sistêmicas por fungos, hipersensibilidade ao medicamento ou a componentes da fórmula.",
+            "efeitos_colaterais": "Pode causar aumento do apetite, insônia, irritabilidade e retenção de líquidos.",
+            "mecanismo_acao": "Atua como anti-inflamatório potente, suprimindo a resposta imunológica e reduzindo a inflamação.",
+            "indicacoes": "Tratamento de condições inflamatórias e alérgicas, como artrite reumatoide e reações alérgicas graves."
+        },
+        {
+            "id": 15,
+            "img": "img15.png",
+            "nome": "Diazepam",
+            "disponibilidade": true,
+            "descricao": "Ansiolítico e relaxante muscular utilizado no tratamento de ansiedade e espasmos musculares.",
+            "contraindicacoes": "Não deve ser utilizado em casos de miastenia gravis, insuficiência respiratória grave, ou hipersensibilidade ao diazepam.",
+            "efeitos_colaterais": "Pode causar sonolência, tontura, fraqueza muscular e confusão.",
+            "mecanismo_acao": "Potencializa a ação do neurotransmissor GABA, produzindo efeito calmante e relaxante muscular.",
+            "indicacoes": "Tratamento de transtornos de ansiedade, insônia, e como relaxante muscular em condições como espasmos e convulsões."
+        },
+        {
+            "id": 16,
+            "img": "img16.webp",
+            "nome": "Digoxina",
+            "disponibilidade": true,
+            "descricao": "Cardiotônico utilizado no tratamento de insuficiência cardíaca.",
+            "contraindicacoes": "Não deve ser usado em casos de intoxicação digitálica, bloqueio cardíaco, ou hipersensibilidade à digoxina.",
+            "efeitos_colaterais": "Pode causar náuseas, vômitos, visão turva e arritmias cardíacas.",
+            "mecanismo_acao": "Aumenta a força de contração do músculo cardíaco, melhorando a eficiência do coração.",
+            "indicacoes": "Tratamento de insuficiência cardíaca congestiva e arritmias cardíacas."
+        },
+        {
+            "id": 17,
+            "img": "img17.jpg",
+            "nome": "Maleato de enalapril",
+            "disponibilidade": true,
+            "descricao": "Inibidor da enzima conversora de angiotensina (IECA) utilizado no tratamento de hipertensão.",
+            "contraindicacoes": "Não deve ser usado durante a gravidez, em casos de hipersensibilidade ao enalapril ou outros inibidores da ECA.",
+            "efeitos_colaterais": "Pode causar tosse seca, tontura, hipotensão e alterações nos níveis de potássio.",
+            "mecanismo_acao": "Inibe a enzima conversora de angiotensina, reduzindo a formação de angiotensina II e promovendo a vasodilatação.",
+            "indicacoes": "Tratamento de hipertensão, insuficiência cardíaca e prevenção de complicações cardíacas."
+        },
+        {
+            "id": 18,
+            "img": "img20.jpg",
+            "nome": "Gardenal",
+            "disponibilidade": true,
+            "descricao": "Anticonvulsivante utilizado no tratamento de epilepsia.",
+            "contraindicacoes": "Não deve ser utilizado em casos de porfiria hepática aguda, insuficiência hepática grave ou hipersensibilidade à substância.",
+            "efeitos_colaterais": "Pode causar sonolência, tontura, náuseas e alterações na coordenação motora.",
+            "mecanismo_acao": "Estabiliza a atividade elétrica no cérebro, prevenindo crises epilépticas.",
+            "indicacoes": "Controle de crises epilépticas, incluindo convulsões tônico-clônicas e crises parciais."
+        },
+        {
+            "id": 19,
+            "img": "img21.jpg",
+            "nome": "Ginkgo",
+            "disponibilidade": true,
+            "descricao": "Suplemento à base de Ginkgo biloba utilizado para melhorar a circulação sanguínea e a memória.",
+            "contraindicacoes": "Não deve ser utilizado por pessoas com distúrbios hemorrágicos, alergia ao ginkgo ou em casos de gravidez.",
+            "efeitos_colaterais": "Pode causar irritação gastrointestinal, dor de cabeça e reações alérgicas.",
+            "mecanismo_acao": "Melhora a circulação sanguínea e tem efeitos antioxidantes que beneficiam a função cerebral.",
+            "indicacoes": "Melhora da circulação periférica, memória e função cognitiva."
+        },
+        {
+            "id": 20,
+            "img": "img22.jpg",
+            "nome": "Glimepirida",
+            "disponibilidade": true,
+            "descricao": "Antidiabético oral utilizado no tratamento de diabetes tipo 2.",
+            "contraindicacoes": "Não deve ser usado em casos de hipersensibilidade à glimepirida ou em quadros de cetoacidose diabética.",
+            "efeitos_colaterais": "Pode causar hipoglicemia, náuseas, tontura e ganho de peso.",
+            "mecanismo_acao": "Estimula a secreção de insulina pelo pâncreas, auxiliando no controle da glicose.",
+            "indicacoes": "Tratamento de diabetes tipo 2 em conjunto com dieta e exercícios."
+        },
+        {
+            "id": 21,
+            "img": "img24.webp",
+            "nome": "Hemofiss",
+            "disponibilidade": true,
+            "descricao": "Hemostático tópico utilizado para controlar sangramentos externos.",
+            "contraindicacoes": "Não deve ser utilizado em feridas profundas ou em casos de coagulação intravascular disseminada.",
+            "efeitos_colaterais": "Raramente, pode causar irritação local.",
+            "mecanismo_acao": "Promove a coagulação do sangue, controlando hemorragias externas.",
+            "indicacoes": "Controle de sangramentos externos leves a moderados."
+        },
+        {
+            "id": 22,
+            "img": "img25.jpg",
+            "nome": "Ibuprofenno",
+            "disponibilidade": true,
+            "descricao": "Anti-inflamatório não esteroide (AINE) utilizado para alívio de dores e inflamações.",
+            "contraindicacoes": "Não deve ser utilizado em casos de úlcera péptica ativa, insuficiência cardíaca grave ou hipersensibilidade ao ibuprofeno.",
+            "efeitos_colaterais": "Pode causar gastrite, úlcera gástrica, retenção de líquidos e aumento da pressão arterial.",
+            "mecanismo_acao": "Inibe a ação de enzimas responsáveis pela produção de substâncias inflamatórias no organismo.",
+            "indicacoes": "Alívio de dores leves a moderadas, como dores musculares, artrite e cólicas menstruais."
+        },
+        {
+            "id": 23,
+            "img": "img26.jpg",
+            "nome": "Itraconazol",
+            "disponibilidade": true,
+            "descricao": "Antifúngico utilizado no tratamento de infecções fúngicas sistêmicas.",
+            "contraindicacoes": "Não deve ser utilizado em casos de insuficiência cardíaca, hipersensibilidade ao itraconazol ou durante a gravidez.",
+            "efeitos_colaterais": "Pode causar náuseas, vômitos, dor abdominal e alterações nos exames de função hepática.",
+            "mecanismo_acao": "Inibe a síntese de ergosterol, componente essencial das membranas celulares fúngicas.",
+            "indicacoes": "Tratamento de infecções fúngicas sistêmicas, como candidíase e aspergilose."
+        },
+        {
+            "id": 24,
+            "img": "img27.jpg",
+            "nome": "Monidrato de isossorbida",
+            "disponibilidade": true,
+            "descricao": "Vasodilatador utilizado no tratamento de angina pectoris e insuficiência cardíaca.",
+            "contraindicacoes": "Não deve ser utilizado em casos de hipotensão severa, hipersensibilidade à isossorbida ou em combinação com inibidores de PDE-5.",
+            "efeitos_colaterais": "Pode causar dor de cabeça, tontura, náuseas e hipotensão.",
+            "mecanismo_acao": "Libera óxido nítrico, relaxando os vasos sanguíneos e aumentando o fluxo sanguíneo.",
+            "indicacoes": "Prevenção e tratamento de angina pectoris, insuficiência cardíaca congestiva."
+        },
+        {
+            "id": 25,
+            "img": "img28.webp",
+            "nome": "Lactulose",
+            "disponibilidade": true,
+            "descricao": "Laxante utilizado no tratamento da constipação intestinal.",
+            "contraindicacoes": "Não deve ser utilizado em casos de obstrução intestinal, galactosemia ou hipersensibilidade à lactulose.",
+            "efeitos_colaterais": "Pode causar flatulência, cólicas abdominais e diarreia.",
+            "mecanismo_acao": "Aumenta o teor de água nas fezes, amolecendo-as e facilitando a passagem pelo intestino.",
+            "indicacoes": "Tratamento da constipação intestinal e na prevenção e tratamento da encefalopatia hepática."
+        }
+    ]
+}

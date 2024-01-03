@@ -1,4 +1,4 @@
-import assentosMicro from '../../images/assentosMicro.png';
+import assentosMicro from '/images/assentosMicro.png';
 import styles from './Assentos.module.css';
 
 interface AssentosProps {
