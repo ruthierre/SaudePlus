@@ -11,7 +11,7 @@ import SolicitarExames from './pages/solicitarExames';
 import SolicitarMedicamentos from './pages/solicitarMedicamentos';
 import MelhorEmCasa from './pages/melhorEmCasa';
 import Ouvidoria from './pages/ouvidoria';
-import SolicitarTransporte from './pages/solicitarTransporte';
+import SolicitarTransporte from './pages/transporte/solicitarTransporte';
 import Layout from './layout/Layout';
 import './App.css';
 

@@ -1,0 +1,107 @@
+@import '../../../styles/globals.css';
+
+.card_transporte div input[type="file"] {
+    display: none;
+}
+
+.card_transporte div input[type="date"] {
+    padding: .5rem;
+    border: 1px solid var(--cor-primaria);
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #fffafa;
+}
+
+.card_transporte {
+    display: flex;
+    box-shadow: 0px 0px 5px gray;
+    padding: .5rem;
+    gap: 1.5rem;
+    width: auto !important;
+    align-self: flex-start;
+}
+
+.card_transporte h3{
+    color: var(--cor-texto);
+}
+
+.card_transporte p{
+    color: var(--cor-texto);
+}
+
+.card_transporte div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: .5rem;
+}
+
+.card_transporte div img{
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+}
+
+.card_transporte button{
+    padding: .5rem;
+    background-color: var(--cor-primaria);
+    color: #fffafa;
+    border: none;
+    width: 100%;
+    border-radius: .5rem;
+}
+
+.file_receita label{
+    padding: .5rem;
+    background-color: var(--cor-secundaria);
+    color: #fffafa;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    border-radius: .5rem;
+    font-weight: bold;
+    transition: .3s ease;
+}
+
+.file_receita label:hover{
+    background-color: var(--cor-primaria);
+}
+
+.file_receita button{
+    cursor: pointer;
+    padding: 1rem;
+}
+
+.btnSolicitacaoTrans{
+    font-weight: bold;
+    cursor: pointer;
+    padding: 1rem !important;
+    transition: .3s ease;
+}
+
+.btnSolicitacaoTrans:hover{
+    background-color: var(--cor-secundaria);
+}
+
+.file_receita span{
+    background-color: var(--cor-secundaria);
+    padding: .5rem;
+    border-radius: .2rem;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+
+@media (max-width: 1150px){
+    .card_transporte{
+        align-self: center;
+    }
+}
+
+
+@media(max-width: 500px){
+    .card_transporte{
+        flex-direction: column;
+        align-self: stretch;
+    }
+}

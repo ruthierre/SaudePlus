@@ -1,0 +1,47 @@
+@import '../../styles/globals.css';
+
+.mainTransporte{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.mainTransporte h1{
+    color: var(--cor-texto);
+    font-size: 2rem;
+}
+
+.container_transporte{
+    width: 100%;
+    max-width: 1200px;
+}
+
+.mainTransporte article{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.container_transporte section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: .5rem;
+} 
+
+@media (max-width: 1150px){
+    .mainTransporte article{
+        align-items: center;
+    }
+
+    .container_transporte section{
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 650px){
+    .container_transporte section{
+        width: 100%;
+    }
+}
