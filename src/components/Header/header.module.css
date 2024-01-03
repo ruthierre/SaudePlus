@@ -18,9 +18,8 @@ header{
 }
 
 .header_container img{
-    width: 200px;
-    background-color: var(--cor-fundo);
-    border-radius: 50%;
+    width: 100px;
+    background-color: none;
     padding: .5rem;
 }
 
