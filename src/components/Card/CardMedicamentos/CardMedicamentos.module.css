@@ -1,3 +1,59 @@
+@import '../../../styles/globals.css'; 
+
+.link{
+    text-decoration: none;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    padding: .5rem;
+    box-shadow: 0px 0px 5px gray;
+    border-radius: .5rem;
+    gap: .5rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.card a .iconeInfo{
+    position: absolute;
+    right: 10px;
+    font-size: 1.2rem;
+    background-color: var(--cor-texto);
+    border-radius: 50%;
+    padding: .15rem;
+    color: white;
+    transform: translate(150%);
+    transition: .5s ease;
+}
+
+.card:hover > a .iconeInfo{
+    transform: translate(0);
+
+}
+
+.card p{
+    color: var(--cor-primaria);
+    font-weight: bold;
+}
+
 .card img{
-    width: 200px;
+    width: 150px;
+}
+
+.card button{
+    padding: .5rem;
+    background-color: var(--cor-secundaria);
+    border: none;
+    color: var(--cor-texto);
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: .2rem;
+}
+
+@media (max-width: 400px){
+    .card{
+        width: 90%;
+    }
 }

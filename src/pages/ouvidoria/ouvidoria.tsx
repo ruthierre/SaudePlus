@@ -1,9 +1,9 @@
 import style from './ouvidoria.module.css'
-import ouvidoriaIcon from '../../../public/images/ouvidoriaIcon.svg'
-import denuncia from '../../../public/images/bullHornIcon.svg'
-import negativo from '../../../public/images/thumbsDownIcon.svg'
-import positivo from '../../../public/images/thumbsUpIcon.svg'
-import message from '../../../public/images/messageIcon.svg'
+import ouvidoriaIcon from '/images/ouvidoriaIcon.svg'
+import denuncia from '/images/bullHornIcon.svg'
+import negativo from '/images/thumbsDownIcon.svg'
+import positivo from '/images/thumbsUpIcon.svg'
+import message from '/images/messageIcon.svg'
 
 function Ouvidoria() {
     return (

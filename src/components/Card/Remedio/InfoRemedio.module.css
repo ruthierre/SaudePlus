@@ -1,0 +1,50 @@
+@import '../../../styles//globals.css';
+
+.cardRemedio{
+    display: flex;
+    box-shadow: 0px 0px 5px gray;
+    border-radius: .5rem;
+    padding: .5rem;
+    gap: 1rem;
+}
+
+.cardRemedio div{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.cardRemedio h2{
+    color: var(--cor-primaria);
+    text-transform: uppercase;
+}
+
+.cardRemedio div p{
+    color: var(--cor-texto);
+}
+
+.cardRemedio div p span{
+    font-weight: bold;
+    color: var(--cor-primaria);
+}
+
+.cardRemedio img{
+    width: 300px;
+}
+
+@media (max-width: 800px){
+    .cardRemedio{
+        flex-direction: column;
+    }
+
+    .cardRemedio img{
+        margin: 0 auto;
+        width: 250px;
+    }
+}
+
+@media (max-width: 400px){
+    .cardRemedio{
+        box-shadow: none;
+    }
+}

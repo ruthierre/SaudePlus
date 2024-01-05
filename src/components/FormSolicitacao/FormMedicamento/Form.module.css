@@ -1,0 +1,110 @@
+@import '../../../styles/globals.css';
+
+.formMed {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: .5rem;
+    box-shadow: 0px 0px 5px gray;
+    padding: .5rem;
+    width: 18.75rem
+}
+
+.formMed h3, p, label, h4, select, li {
+    color: var(--cor-texto);
+}
+
+.div_ubs {
+    width: 100%;
+}
+
+.div_ubs select {
+    padding: .5rem;
+    width: 100%;
+}
+
+.formMed .btnConfirmarMed {
+    background-color: var(--cor-primaria);
+    border: none;
+    width: 100%;
+    color: var(--cor-branca);
+    padding: .5rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.file_receita {
+    width: 100%;
+}
+
+.file_receita input[type="file"] {
+    display: none;
+}
+
+.receita {
+    padding: 5px;
+    background-color: var(--cor-primaria);
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    cursor: pointer;
+}
+
+.aviso {
+    margin-block: .5rem;
+}
+
+.aviso p {
+    font-size: .9rem;
+    color: gray;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+.aviso label span {
+    color: rgb(57, 57, 216);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.aviso h4 span {
+    color: darkred;
+    animation: animate .5s linear infinite;
+}
+
+.lista_remedios{
+    width: 100%;
+}
+
+.ol_medicamentos li{
+   list-style-type: circle;
+   margin-left: 1rem;
+}
+
+
+.ol_medicamentos li span{
+   font-weight: bold;
+   color: red;
+   cursor: pointer;
+   padding: .1rem .3rem;
+   border-radius: 50%;
+   border: 1px solid var(--cor-branca);
+}
+
+.emptyList{
+    background-color: var(--cor-secundaria);
+    color: var(--cor-branca);
+    text-align: center;
+    padding: .25rem;
+    border-radius: .25rem;
+    font-weight: bold;
+    
+}
+
+@media screen and (max-width: 900px) {
+    .formMed {
+        width: 100%;
+    }
+}

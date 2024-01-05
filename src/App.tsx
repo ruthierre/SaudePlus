@@ -13,7 +13,9 @@ import MelhorEmCasa from './pages/melhorEmCasa';
 import Ouvidoria from './pages/ouvidoria/ouvidoria';
 import SolicitarTransporte from './pages/transporte/solicitarTransporte';
 import Layout from './layout/Layout';
+import medicamentos from './data/medicamentos.json';
 import './App.css';
+import PaginaRemedio from './pages/infoRemedio/paginaRemedio';
 
 function App() {
   return (
@@ -32,6 +34,9 @@ function App() {
           <Route path="/solicitar-transporte" element={<Layout><SolicitarTransporte /></Layout>} />
           <Route path="/solicitar-melhor-em-casa" element={<Layout><MelhorEmCasa /></Layout>} />
           <Route path="/ouvidoria" element={<Layout><Ouvidoria /></Layout>} />
+          {medicamentos.remedios.map((medicamento) => (
+              <Route key={medicamento.id} path={`/${medicamento.nome}`} element={<Layout><PaginaRemedio remedio={medicamento}/></Layout>} />
+          ))}
           <Route path="*" element={<Layout><PageNotFound /></Layout>} />
         </Routes>
       </Router>
