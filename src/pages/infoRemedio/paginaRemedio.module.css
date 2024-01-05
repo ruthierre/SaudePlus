@@ -1,0 +1,32 @@
+@import '../../styles/globals.css';
+
+.container_mainRemedio{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+
+.container_infoRemedio{
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+}
+
+.container_infoRemedio h1{
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    color: var(--cor-secundaria);
+    text-decoration: underline;
+}
+
+@media (max-width: 400px){
+    .container_mainRemedio{
+        padding: .5rem;
+    }
+
+    .container_infoRemedio h1{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+}

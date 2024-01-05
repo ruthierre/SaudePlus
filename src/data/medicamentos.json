@@ -133,28 +133,6 @@
             "indicacoes": "Tratamento de infecções fúngicas na pele, unhas e mucosas."
         },
         {
-            "id": 13,
-            "img": "img13.jpg",
-            "nome": "bromidrado de citalopram",
-            "disponibilidade": true,
-            "descricao": "Antidepressivo utilizado no tratamento de transtornos depressivos.",
-            "contraindicacoes": "Não deve ser usado por pessoas com hipersensibilidade ao citalopram ou a outros inibidores seletivos de recaptação de serotonina.",
-            "efeitos_colaterais": "Pode causar insônia, sonolência, náuseas e alterações no apetite.",
-            "mecanismo_acao": "Aumenta os níveis de serotonina no cérebro, melhorando o humor.",
-            "indicacoes": "Tratamento de transtornos depressivos e transtorno do pânico."
-        },
-        {
-            "id": 14,
-            "img": "img14.webp",
-            "nome": "Acetato de dexametasona",
-            "disponibilidade": true,
-            "descricao": "Corticosteroide utilizado no tratamento de inflamações e alergias.",
-            "contraindicacoes": "Não deve ser usado em casos de infecções sistêmicas por fungos, hipersensibilidade ao medicamento ou a componentes da fórmula.",
-            "efeitos_colaterais": "Pode causar aumento do apetite, insônia, irritabilidade e retenção de líquidos.",
-            "mecanismo_acao": "Atua como anti-inflamatório potente, suprimindo a resposta imunológica e reduzindo a inflamação.",
-            "indicacoes": "Tratamento de condições inflamatórias e alérgicas, como artrite reumatoide e reações alérgicas graves."
-        },
-        {
             "id": 15,
             "img": "img15.png",
             "nome": "Diazepam",
@@ -252,17 +230,6 @@
             "efeitos_colaterais": "Pode causar náuseas, vômitos, dor abdominal e alterações nos exames de função hepática.",
             "mecanismo_acao": "Inibe a síntese de ergosterol, componente essencial das membranas celulares fúngicas.",
             "indicacoes": "Tratamento de infecções fúngicas sistêmicas, como candidíase e aspergilose."
-        },
-        {
-            "id": 24,
-            "img": "img27.jpg",
-            "nome": "Monidrato de isossorbida",
-            "disponibilidade": true,
-            "descricao": "Vasodilatador utilizado no tratamento de angina pectoris e insuficiência cardíaca.",
-            "contraindicacoes": "Não deve ser utilizado em casos de hipotensão severa, hipersensibilidade à isossorbida ou em combinação com inibidores de PDE-5.",
-            "efeitos_colaterais": "Pode causar dor de cabeça, tontura, náuseas e hipotensão.",
-            "mecanismo_acao": "Libera óxido nítrico, relaxando os vasos sanguíneos e aumentando o fluxo sanguíneo.",
-            "indicacoes": "Prevenção e tratamento de angina pectoris, insuficiência cardíaca congestiva."
         },
         {
             "id": 25,

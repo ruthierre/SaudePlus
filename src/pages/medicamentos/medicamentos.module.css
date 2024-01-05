@@ -1,0 +1,61 @@
+@import '../../styles/globals.css';
+
+.mainMedicamentos {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.container_medicamentos {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.container_medicamentos .sectionMed {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+
+    & .container_filtroMed {
+        position: relative;
+    }
+
+    & .container_filtroMed input {
+        padding: .5rem;
+        width: 100%;
+        background-color: var(--cor-fundo);
+        border: 1px solid gray;
+        border-radius: .25rem;
+    }
+
+    & .container_filtroMed h2 {
+        color: var(--cor-primaria);
+    }
+}
+
+.container_card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: .5rem;
+}
+
+.iconSearch {
+    position: absolute;
+    right: .5rem;
+    top: 2.3rem;
+}
+
+@media screen and (max-width: 900px) {
+    .container_medicamentos {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .mainMedicamentos .container_card {
+        gap: 1rem;
+    }
+}
