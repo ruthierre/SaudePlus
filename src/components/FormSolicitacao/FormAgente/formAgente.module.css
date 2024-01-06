@@ -1,0 +1,96 @@
+@import '../../../styles//globals.css';
+
+.form_agente {
+    box-shadow: 0px 0px 5px gray;
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    border-radius: .2rem;
+}
+
+.form_agente input[type="date"] {
+    padding: .5rem;
+    border: 1px solid var(--cor-primaria);
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #fffafa;
+}
+
+.form_agente label {
+    cursor: pointer;
+    font-weight: bold;
+    color: var(--cor-texto);
+}
+
+.form_agente h3{
+    color: var(--cor-texto);
+}
+
+.form_agente .btnSolicitacaoAgenteSaude {
+    cursor: pointer;
+    padding: 1rem;
+    border: none;
+    background-color: var(--cor-primaria);
+    color: var(--cor-branca);
+    font-weight: bold;
+    border-radius: .5rem;
+    transition: .3s ease;
+}
+
+.btnSolicitacaoAgenteSaude:hover{
+    background-color: var(--cor-secundaria);
+}
+
+.form_agente .turno {
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+}
+
+.form_agente textarea {
+    padding: .5rem;
+    width: 100%;
+    height: 100px;
+    resize: none;
+    border-radius: .5rem;
+    font-size: 1rem;
+    border: 1px solid var(--cor-primaria);
+}
+
+.form_agente textarea:focus {
+    outline: none;
+}
+
+
+
+.aviso {
+    margin-block: .5rem;
+    max-width: 350px;
+}
+
+.aviso p {
+    font-size: .9rem;
+    color: gray;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+.aviso label span {
+    color: rgb(57, 57, 216);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.aviso h4 span {
+    color: darkred;
+    animation: animate .5s linear infinite;
+}
+
+@media (max-width: 750px){
+    .form_agente{
+        box-shadow: none;
+        padding: 0;
+    }
+}

@@ -57,13 +57,13 @@
         flex-direction: column;
         align-items: center;
         margin-top: 4rem;
-        width: 100svw;
+        width: 100%;
         gap: 3rem;
     }
 
     .ouvidorias{
         display: flex;
-        width: 100svw;
+        width: 100%;
         justify-content: space-around;
     }
 
@@ -210,7 +210,7 @@
         flex-direction: column;
         align-items: center;
         margin-top: 4rem;
-        width: 100svw;
+        width: 100%;
         gap: 3rem;
     }
 
