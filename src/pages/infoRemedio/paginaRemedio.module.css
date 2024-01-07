@@ -20,7 +20,7 @@
     text-decoration: underline;
 }
 
-@media (max-width: 400px){
+@media (max-width: 450px){
     .container_mainRemedio{
         padding: .5rem;
     }

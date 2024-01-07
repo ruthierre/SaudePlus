@@ -43,6 +43,7 @@ function SolicitarMedicamentos() {
 
     return (
         <main className={styles.mainMedicamentos}>
+            <h1>Solicitar Medicamentos</h1>
             <article className={styles.container_medicamentos}>
                 <section className={styles.sectionForm}>
                     <FormMedicamento excluirMedicamento={excluirMedicamento} medicamentosSelec={medSelecionados} />

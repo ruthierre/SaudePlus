@@ -1,0 +1,99 @@
+@import '../../../styles//globals.css';
+
+.form_solicMed {
+    box-shadow: 0px 0px 5px gray;
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    border-radius: .2rem;
+}
+
+.form_solicMed h3, p, label, h4, select, li {
+    color: var(--cor-texto);
+}
+
+.form_solicMed label {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.receita {
+    padding: 5px;
+    background-color: var(--cor-primaria);
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    cursor: pointer;
+}
+
+.file_receita {
+    width: 100%;
+}
+
+.div_ubs select {
+    padding: .5rem;
+    width: 100%;
+}
+
+
+.cid_container input{
+    padding: .5rem;
+    width: 100%;
+    outline: none;
+}
+
+.file_receita input[type="file"] {
+    display: none;
+}
+
+.form_solicMed .btnSolicitacaoExam {
+    cursor: pointer;
+    padding: 1rem;
+    border: none;
+    background-color: var(--cor-primaria);
+    color: var(--cor-branca);
+    font-weight: bold;
+    border-radius: .5rem;
+    transition: .3s ease;
+}
+
+.btnSolicitacaoExam:hover{
+    background-color: var(--cor-secundaria);
+}
+
+.form_solicMed textarea:focus {
+    outline: none;
+}
+
+.aviso {
+    margin-block: .5rem;
+    max-width: 350px;
+}
+
+.aviso p {
+    font-size: .9rem;
+    color: gray;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+.aviso label span {
+    color: rgb(57, 57, 216);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.aviso h4 span {
+    color: darkred;
+    animation: animate .5s linear infinite;
+}
+
+@media (max-width: 750px){
+    .form_solicMed{
+        box-shadow: none;
+        padding: 0;
+    }
+}

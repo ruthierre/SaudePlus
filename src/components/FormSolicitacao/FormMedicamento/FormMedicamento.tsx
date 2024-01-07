@@ -22,7 +22,7 @@ function FormMedicamento({ medicamentosSelec, excluirMedicamento }: FormMedicame
                 <input type="file" name="arquivo" id="arquivo" required />
             </div>
             <div className={styles.lista_remedios}>
-                <h4>Medicamentos Selecionados: </h4>
+                <h4>Medicamentos Selecionados: </h4> 
                 <ol className={styles.ol_medicamentos}>
                     {medicamentosSelec.length > 0 ? (
                         <>

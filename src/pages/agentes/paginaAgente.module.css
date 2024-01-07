@@ -77,7 +77,7 @@
 
 @media(max-width: 750px){
     .container_agente{
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     .motivoAgente section{
