@@ -9,7 +9,7 @@ import SolicitarAgEndemias from './pages/agentes/agenteEndemias/solicitarAgEndem
 import SolicitarConsultas from './pages/solicitacoesMedicas/solicitarConsultas';
 import SolicitarExames from './pages/solicitacoesMedicas/solicitarExames';
 import SolicitarMedicamentos from './pages/medicamentos/solicitarMedicamentos';
-import MelhorEmCasa from './pages/melhorEmCasa';
+import MelhorEmCasa from './pages/solicitacoesMedicas/melhorEmCasa';
 import Ouvidoria from './pages/ouvidoria/ouvidoria';
 import SolicitarTransporte from './pages/transporte/solicitarTransporte';
 import Layout from './layout/Layout';
