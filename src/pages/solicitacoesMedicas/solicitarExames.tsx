@@ -10,7 +10,7 @@ function SolicitarExames() {
             <h1>Solicitar Exame</h1>
             <article className={styles.container_solicMedica}>
                 <section>
-                    <FormSolicitacaoMedica tipo='do seu exame'/>
+                    <FormSolicitacaoMedica tipoAnexo='receita' localAtendimento={true}  tipo='do seu exame'/>
                 </section>
                 <section>
                     <Apresentacao img={medicoFicha} texto={texto.solicitacao_exames} />

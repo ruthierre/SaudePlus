@@ -2,28 +2,32 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import styles from './FormSolicitacaoMedica.module.css';
 import { faFileInvoice } from '@fortawesome/free-solid-svg-icons';
 
-interface FormSolicMedProps{
+interface FormSolicMedProps {
     tipo: string;
+    localAtendimento: boolean;
+    tipoAnexo: string;
 }
 
-function FormSolicitacaoMedica({tipo}: FormSolicMedProps) {
+function FormSolicitacaoMedica({ tipo, localAtendimento, tipoAnexo }: FormSolicMedProps) {
     return (
         <>
             <form className={styles.form_solicMed}>
                 <div className={styles.file_receita}>
-                    <h3>Anexar Receita: </h3>
+                    <h3>Anexar {tipoAnexo} </h3>
                     <label className={styles.receita} htmlFor="arquivo">Enviar arquivo <FontAwesomeIcon icon={faFileInvoice} /></label>
                     <input type="file" name="arquivo" id="arquivo" required />
                 </div>
 
-                <div className={styles.div_ubs}>
-                    <h3>Local de atendimento:</h3>
-                    <select name="" id="">
-                        <option value="">UBS</option>
-                        <option value="">SMS - SECRETARIA MUNICIPAL DE SAÚDE</option>
-                        <option value="">CEME</option>
-                    </select>
-                </div>
+                {localAtendimento && (
+                    <div className={styles.div_ubs}>
+                        <h3>Local de atendimento:</h3>
+                        <select name="" id="">
+                            <option value="">UBS</option>
+                            <option value="">SMS - SECRETARIA MUNICIPAL DE SAÚDE</option>
+                            <option value="">CEME</option>
+                        </select>
+                    </div>
+                )}
 
                 <div className={styles.cid_container}>
                     <h3>Informe o CID {tipo}:</h3>
