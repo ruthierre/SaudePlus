@@ -7,7 +7,7 @@
 }
 
 .mainTransporte h1{
-    color: var(--cor-texto);
+    color: var(--cor-primaria);
     font-size: 2rem;
 }
 
@@ -43,5 +43,12 @@
 @media(max-width: 650px){
     .container_transporte section{
         width: 100%;
+    }
+}
+
+
+@media(max-width: 450px){
+    .mainTransporte h1{
+        font-size: 1.5rem;
     }
 }

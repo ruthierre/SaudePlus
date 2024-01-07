@@ -2,9 +2,7 @@
 
 .cardRemedio{
     display: flex;
-    box-shadow: 0px 0px 5px gray;
     border-radius: .5rem;
-    padding: .5rem;
     gap: 1rem;
 }
 
@@ -40,11 +38,5 @@
     .cardRemedio img{
         margin: 0 auto;
         width: 250px;
-    }
-}
-
-@media (max-width: 400px){
-    .cardRemedio{
-        box-shadow: none;
     }
 }
