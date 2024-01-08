@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/home/home';
 import Login from './pages/login/login';
 import PageNotFound from './pages/pagenotfound/pageNotFound';
-import Cadastro from './pages/cadastro';
+import Cadastro from './pages/cadastro/cadastro';
 import Usuario from './pages/usuario';
 import SolicitarAgSaude from './pages/agentes/agenteSaude/solicitarAgSaude';
 import SolicitarAgEndemias from './pages/agentes/agenteEndemias/solicitarAgEndemias';
