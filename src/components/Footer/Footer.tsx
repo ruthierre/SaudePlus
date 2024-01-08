@@ -4,7 +4,7 @@ import { faFacebook, faInstagram, faLinkedin, faXTwitter, faYoutube } from '@for
 import { Link } from 'react-router-dom';
 import styles from './footer.module.css'
 
-function Footer() { 
+function Footer() {
     return (
         <>
             <footer>
@@ -72,7 +72,11 @@ function Footer() {
             <div className={styles.footerCopyright}>
                 <div className={styles.copy_container}>
                     <label>
-                        &copy; 2024 - Evilazio, João Vitor, Rodrigo e Walber
+                        &copy; 2024 -
+                        <a target='_blank' href="https://github.com/EvilazioNeto"> Evilazio</a>,
+                        <a target='_blank' href="https://github.com/JoaoVitorHipolito"> João Vitor</a>,
+                        <a target='_blank' href="https://github.com/Rrodrigo2525"> Rodrigo </a>e
+                        <a target='_blank' href="https://github.com/ruthierre"> Walber </a>
                     </label>
                     <div className={styles.redes}>
                         <FontAwesomeIcon icon={faFacebook} />

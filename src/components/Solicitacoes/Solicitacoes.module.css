@@ -1,0 +1,67 @@
+@import '../../styles/globals.css';
+
+.container_solicitacoes {
+    box-shadow: 0px 0px 5px gray;
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.container_solicitacoes h1 {
+    text-align: center;
+    color: var(--cor-primaria);
+}
+
+.card_solicitacao {
+    border: 1px solid var(--cor-secundaria);
+    padding: .5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border-radius: .2rem;
+}
+
+.card_solicitacao span{
+    font-weight: bold;
+}
+
+.card_solicitacao ol{
+    margin-left: 20px;
+    list-style-type: circle;
+    font-weight: bold;
+}
+
+.card_solicitacao ol li{
+    color: var(--cor-primaria);
+}
+
+.card_solicitacao .aprovado{
+    color: green;
+    font-weight: bold;
+}
+
+.card_solicitacao .negado{
+    color: red;
+}
+
+.card_solicitacao .pendente{
+    color: var(--cor-primaria);
+}
+
+.card_solicitacao .handleSolic {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.handleSolic svg:nth-child(1) {
+    font-size: 1.5rem;
+    color: red;
+}
+
+.handleSolic svg:nth-child(2) {
+    font-size: 1.5rem;
+    color: var(--cor-primaria);
+}
