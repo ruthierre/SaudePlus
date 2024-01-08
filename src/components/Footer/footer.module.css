@@ -112,6 +112,15 @@ footer{
     }
 }
 
+.copy_container label a{
+    text-decoration: none;
+    color: var(--cor-texto);
+}
+
+.copy_container label a:hover{
+    text-decoration: underline;
+}
+
 .footerCopyright .redes{
     display: flex;
     gap: .5rem;

@@ -1,6 +1,18 @@
 {
     "remedios": [
         {
+            "id": 27,
+            "img": "img28.jpg",
+            "nome": "Losartana",
+            "disponibilidade": true,
+            "descricao": "Anti-hipertensivo utilizado principalmente para tratar a hipertensão arterial (pressão alta) e pode também ser prescrito para algumas condições cardíacas.",
+            "contraindicacoes": "Gravidez, alergia à losartana, histórico de inchaço relacionado a medicamentos semelhantes.",
+            "efeitos_colaterais": "Podem incluir tontura, fadiga, dores de cabeça e aumento nos níveis de potássio no sangue.",
+            "mecanismo_acao": "Age bloqueando os receptores de angiotensina II, ajudando a relaxar os vasos sanguíneos e, assim, diminuindo a pressão arterial.",
+            "via_administracao": "Geralmente, administrada por via oral na forma de comprimidos.",
+            "indicacoes": "Tratamento de hipertensão arterial e condições cardíacas."
+        },
+        {
             "id": 1,
             "img": "img.webp",
             "nome": "Aciclovir",
@@ -241,6 +253,32 @@
             "efeitos_colaterais": "Pode causar flatulência, cólicas abdominais e diarreia.",
             "mecanismo_acao": "Aumenta o teor de água nas fezes, amolecendo-as e facilitando a passagem pelo intestino.",
             "indicacoes": "Tratamento da constipação intestinal e na prevenção e tratamento da encefalopatia hepática."
+        },
+        {
+            "id": 26,
+            "img": "img29.webp",
+            "nome": "Metformina",
+            "disponibilidade": true,
+            "descricao": "Antidiabético oral utilizado para o tratamento do diabetes mellitus tipo 2. Ajuda a controlar os níveis de glicose no sangue, melhorando a sensibilidade à insulina e reduzindo a produção hepática de glicose.",
+            "contraindicacoes": "Não deve ser utilizado em casos de alergia à metformina, insuficiência renal grave, insuficiência hepática ou condições que possam predispor à acidose láctica.",
+            "efeitos_colaterais": "Alguns efeitos colaterais comuns incluem desconforto gastrointestinal, como náuseas, vômitos, diarreia e perda de apetite. Em casos raros, pode ocorrer acidose láctica.",
+            "mecanismo_acao": "A metformina atua principalmente reduzindo a produção hepática de glicose e aumentando a sensibilidade das células à insulina, facilitando a entrada de glicose nas células.",
+            "via_administracao": "Via oral, geralmente duas vezes ao dia, durante ou após as refeições.",
+            "indicacoes": "Indicado para o tratamento do diabetes mellitus tipo 2, especialmente em pacientes com sobrepeso, quando a dieta e o exercício por si só não são suficientes para controlar os níveis de glicose no sangue."
+        },
+        {
+            "id": 28,
+            "img": "img29.jpg",
+            "nome": "Paracetamol",
+            "disponibilidade": true,
+            "descricao": "Analgésico e antipirético utilizado para aliviar a dor e reduzir a febre. É um medicamento seguro quando usado nas doses recomendadas, mas doses excessivas podem causar danos graves ao fígado.",
+            "contraindicacoes": "Não deve ser utilizado em casos de alergia ao paracetamol. Pessoas com problemas hepáticos devem consultar um profissional de saúde antes de usar o medicamento.",
+            "efeitos_colaterais": "Em geral, o paracetamol é bem tolerado quando usado nas doses recomendadas. No entanto, doses elevadas podem causar danos ao fígado. Em casos raros, podem ocorrer reações alérgicas.",
+            "mecanismo_acao": "O paracetamol atua no sistema nervoso central, inibindo a produção de substâncias que causam dor e reduzindo a febre ao agir no centro regulador da temperatura no cérebro.",
+            "via_administracao": "Via oral, geralmente a cada 4 a 6 horas conforme necessário. Também está disponível em formas de comprimidos, gotas ou supositórios, dependendo da idade e preferência do paciente.",
+            "indicacoes": "Indicado para o alívio de dores leves a moderadas, como dor de cabeça, dores musculares, dor de dente, cólicas menstruais, e para redução de febre."
         }
+        
+        
     ]
 }

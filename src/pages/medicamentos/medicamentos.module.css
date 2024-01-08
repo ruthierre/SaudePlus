@@ -26,8 +26,10 @@
     flex-direction: column;
     gap: .5rem;
 
-    & .container_filtroMed {
-        position: relative;
+    & .container_filtroMed div{
+        display: flex;
+        align-items: center;
+        gap: .5rem;
     }
 
     & .container_filtroMed input {
@@ -36,6 +38,7 @@
         background-color: var(--cor-fundo);
         border: 1px solid gray;
         border-radius: .25rem;
+        outline: none;
     }
 
     & .container_filtroMed h2 {
@@ -51,9 +54,18 @@
 }
 
 .iconSearch {
-    position: absolute;
     right: .5rem;
     top: 2.3rem;
+    border-radius: .2rem;
+    padding: .5rem;
+    border: 1px solid var(--cor-primaria);
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.iconSearch:hover{
+    background-color: var(--cor-secundaria);
+    color: var(--cor-branca);
 }
 
 @media screen and (max-width: 900px) {

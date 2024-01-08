@@ -20,19 +20,19 @@ function SolicitarMedicamentos() {
     }
 
     function excluirMedicamento(medicamento: MedicamentoProps) {
-            const encontrado: number = (medSelecionados.indexOf(medicamento))
-            medSelecionados.splice(encontrado, 1)
-            const novoArray: MedicamentoProps[] = [...medSelecionados]
-            setMedSelecionados(novoArray)
+        const encontrado: number = (medSelecionados.indexOf(medicamento))
+        medSelecionados.splice(encontrado, 1)
+        const novoArray: MedicamentoProps[] = [...medSelecionados]
+        setMedSelecionados(novoArray)
     }
 
-    function pesquisarMed(e: string){
+    function pesquisarMed(e: string) {
         setMedFiltrado(e)
     }
 
-    function filtrarMedicamentos(){
+    function filtrarMedicamentos() {
         const filtrado: MedicamentoProps[] = arrMedicamentos.filter((medicamento) => medicamento.nome.toLowerCase() === medFiltrado)
-        if(filtrado.length > 0){
+        if (filtrado.length > 0) {
             let index: number = arrMedicamentos.indexOf(filtrado[0])
             arrMedicamentos.splice(index, 1)
             arrMedicamentos.unshift(filtrado[0])
@@ -51,11 +51,13 @@ function SolicitarMedicamentos() {
                 <section className={styles.sectionMed}>
                     <div className={styles.container_filtroMed}>
                         <h2>Pesquisar Medicamentos:</h2>
-                        <input type="text" placeholder="Ex: Dipirona" onChange={(e)=> pesquisarMed(e.target.value.toLowerCase())}/>
-                        <FontAwesomeIcon className={styles.iconSearch} icon={faSearch} onClick={filtrarMedicamentos}/>
+                        <div>
+                            <input type="text" placeholder="Ex: Dipirona" onChange={(e) => pesquisarMed(e.target.value.toLowerCase())} />
+                            <FontAwesomeIcon className={styles.iconSearch} icon={faSearch} onClick={filtrarMedicamentos} />
+                        </div>
                     </div>
                     <div className={styles.container_card}>
-                        <CardMedicamentos selecionarMedicamento={selecionarMedicamento} medicamentos={arrMedicamentos}/>
+                        <CardMedicamentos selecionarMedicamento={selecionarMedicamento} medicamentos={arrMedicamentos} />
                     </div>
                 </section>
             </article>
