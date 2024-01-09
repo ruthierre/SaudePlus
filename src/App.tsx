@@ -3,7 +3,7 @@ import Home from './pages/home/home';
 import Login from './pages/login/login';
 import PageNotFound from './pages/pagenotfound/pageNotFound';
 import Cadastro from './pages/cadastro/cadastro';
-import Usuario from './pages/usuario';
+import Usuario from './pages/usuario/usuario';
 import SolicitarAgSaude from './pages/agentes/agenteSaude/solicitarAgSaude';
 import SolicitarAgEndemias from './pages/agentes/agenteEndemias/solicitarAgEndemias';
 import SolicitarConsultas from './pages/solicitacoesMedicas/solicitarConsultas';
@@ -25,7 +25,7 @@ function App() {
           <Route path="/" element={<Layout><Home /></Layout>} />
           <Route path="/login" element={<Login />} />
           <Route path="/cadastro" element={<Cadastro />} />
-          <Route path="/usuario" element={<Layout><Usuario /></Layout>} />
+          <Route path="/usuario" element={<Usuario />} />
           <Route path="/solicitar-agente-saude" element={<Layout><SolicitarAgSaude /></Layout>} />
           <Route path="/solicitar-agente-endemias" element={<Layout><SolicitarAgEndemias /></Layout>} />
           <Route path="/solicitar-consultas" element={<Layout><SolicitarConsultas /></Layout>} />
