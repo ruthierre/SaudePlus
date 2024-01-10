@@ -19,6 +19,7 @@
         padding: .5rem;
         box-shadow:  0px 6px 8px 0px rgba(82,138,150,1);
         border-radius: 1rem;
+        max-width: 1200px;
     }
 
     .text  h2{

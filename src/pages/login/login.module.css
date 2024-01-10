@@ -152,6 +152,12 @@
         height: 100svh;
         width: 100%;
     }
+
+    .form{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
     
     .login {
         display: flex;
@@ -160,15 +166,18 @@
         color: var(--cor-primaria);
         flex-direction: column;
         flex-wrap: wrap;
-        width: 280px;
+        width: 100%;
         height: 90svh;
         gap: 1rem;
         background-color: var(--cor-branca);
         border-radius: 1rem;
     }
+
+    .contentLogin{
+        gap: .5rem;
+    }
     
     .contentLogin div  {
-        width: 240px;
         border: none;
         background-color: var(--cor-branca);
         font-size: 1rem;
@@ -186,6 +195,11 @@
         transition: .3s ease;
         border-color: none;
         color: var(--cor-branca);
+    }
+
+    .login .botoes{
+        display: flex;
+        gap: .5rem;
     }
     
     .loginData{

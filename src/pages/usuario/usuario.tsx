@@ -1,6 +1,6 @@
 import style from './usuario.module.css';
 import { Link } from 'react-router-dom';
-import rodrigo from '../../../public/images/rodrigoUser.jpeg';
+import rodrigo from '/images/rodrigoUser.jpeg';
 
 function Usuario(){
     return (
