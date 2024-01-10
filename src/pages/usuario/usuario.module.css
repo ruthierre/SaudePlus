@@ -209,7 +209,7 @@
         transition: all .5s;
     }
 
-    .userContainer label , input {
+    .userContainer label , .userContainer input {
         color: var(--cor-primaria);
         font-size: small;
     }
