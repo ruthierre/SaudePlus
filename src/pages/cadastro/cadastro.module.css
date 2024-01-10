@@ -3,8 +3,8 @@
 @media (min-width: 1080px) {
     .container{
         background-color: rgba(82, 138, 200, .8);
-        width: 100svw;
-        height: 100svh;
+        width: 100%;
+        padding: 1rem;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -15,7 +15,8 @@
         flex-direction: column;
         background-color: var(--cor-branca);
         width: 70%;
-        height: 95%;
+        height: 98%;
+        padding: .5rem;
         box-shadow:  0px 6px 8px 0px rgba(82,138,150,1);
         border-radius: 1rem;
     }
@@ -59,7 +60,7 @@
         padding-bottom: 1rem;
     }
 
-    .userContainer label , input {
+    .userContainer label, .userContainer input {
         color: var(--cor-primaria);
         font-size: small;
     }
@@ -123,7 +124,7 @@
     .areaDadosUsuario {
         display: flex;
         justify-content: space-around;
-        padding-top: 1rem;
+        padding-top: .5rem;
     }
 
     .areaDadosUsuario button {
@@ -205,7 +206,7 @@
         padding-bottom: 1rem;
     }
 
-    .userContainer label , input {
+    .userContainer label , .userContainer input {
         color: var(--cor-primaria);
         font-size: small;
     }
