@@ -7,7 +7,7 @@ function Login() {
     return (
 
         <div className={style.main}>
-            <form className="form" method="post">
+            <form className={style.form} method="post">
                 <div className={style.login}>
                     <div className={style.logoClass}>
                         <img src={logo} alt="Logo Saude Plus" />

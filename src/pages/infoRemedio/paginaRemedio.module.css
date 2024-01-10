@@ -6,11 +6,26 @@
     padding: 2rem;
 }
 
+.voltar{
+    text-decoration: none;
+    color: var(--cor-primaria);
+    font-size: 1.5rem;
+    display: flex;
+    gap: .5rem;
+    align-self: start;
+    font-weight: bold;
+    transition: .3s ease;
+}
+
+.voltar:hover{
+    color: var(--cor-secundaria);
+}
 
 .container_infoRemedio{
     display: flex;
     flex-direction: column;
     max-width: 1200px;
+    gap: 1rem;
 }
 
 .container_infoRemedio h1{

@@ -6,6 +6,7 @@
     align-items: center;
     width: 100%;
     padding: 1rem;
+    padding-bottom: 3rem;
     gap: 1rem;
 }
 
@@ -32,6 +33,10 @@
 @media(max-width: 1000px){
     .container_solicMedica{
         gap: 1rem;
+    }
+
+    .mainSolicMedica{
+        padding-bottom: 1rem;
     }
 }
 
